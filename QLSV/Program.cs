@@ -225,7 +225,7 @@ internal class Program
             switch (choice)
             {
                 case 1:
-                    Console.Write("Enter Id to find: ");
+                    Console.Write("- Enter Id to find: ");
                     int findId = int.Parse(Console.ReadLine());
                     FindStudentById(students, findId);
                     break;
@@ -239,12 +239,12 @@ internal class Program
                     SortStudents(students, n, SortBy.Name);
                     break;
                 case 5:
-                    Console.Write("Enter Id to modify: ");
+                    Console.Write("- Enter Id to modify: ");
                     int modifyId = int.Parse(Console.ReadLine());
                     ModifyStudentById(students, n, modifyId);
                     break;
                 case 6:
-                    Console.Write("Enter Id to delete: ");
+                    Console.Write("- Enter Id to delete: ");
                     int deleteId = int.Parse(Console.ReadLine());
                     DeleteStudentById(students, n, deleteId);
                     break;
