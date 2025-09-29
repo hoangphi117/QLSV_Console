@@ -219,6 +219,7 @@ internal class Program
             Console.WriteLine("[6] Delete student by Id");
             Console.WriteLine("[7] Print all students");
             Console.WriteLine("[0] Exit");
+            Console.WriteLine("-------------------------");
             Console.Write("Enter your choice: ");
             choice = int.Parse(Console.ReadLine());
             switch (choice)
